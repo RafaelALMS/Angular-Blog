@@ -1,0 +1,24 @@
+.TopMenu{
+    display: flex;
+    flex-wrap: wrap;
+    flex:1;
+
+}
+
+.Esquerda {
+    flex: 30%;
+    border: 2px;
+    background-color: lightcyan;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.Direita div{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex: 30%;
+    border: 2px;
+    background-color: lightgreen;
+}
