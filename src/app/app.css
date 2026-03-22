@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.MainBlog{
+    justify-content: center;
+    display: flex;
+    box-sizing: inherit;
+}

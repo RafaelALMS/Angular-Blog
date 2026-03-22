@@ -1,24 +1,18 @@
-.TopMenu{
+div{
     display: flex;
-    flex-wrap: wrap;
-    flex:1;
-
+    flex-direction: row; 
 }
-
 .Esquerda {
     flex: 30%;
     border: 2px;
     background-color: lightcyan;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
+    padding: 5px;
 }
 
 .Direita div{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
     flex: 30%;
     border: 2px;
     background-color: lightgreen;
+    display: flex;
+    flex-direction: row;
 }
