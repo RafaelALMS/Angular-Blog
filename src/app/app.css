@@ -1,11 +1,14 @@
 .container{
-    display: flex;
-    flex-direction: row;
+    display:grid;
+    width: 100%;
+    grid-template-columns:  0.33fr 1fr .33fr;
 }
 
 
 .MainBlog{
     justify-content: center;
-    display: flex;
-    box-sizing: inherit;
+    background-color: lightcoral;
+    margin-right: 25px;
 }
+
+

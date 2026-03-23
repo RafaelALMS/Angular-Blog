@@ -1,5 +1,10 @@
-.MainBlog{
-    background-color: lightpink;
+
+.container{
     display: flex;
-    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img{
+    margin-right: 10%; 
 }
