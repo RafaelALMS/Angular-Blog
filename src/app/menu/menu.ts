@@ -1,5 +1,4 @@
 import { Component, Injectable } from '@angular/core';
-import { log } from 'console';
 
 @Component({
   selector: 'Top-Menu',
@@ -14,11 +13,11 @@ import { log } from 'console';
 
 export class TopMenu {
   isOpen:boolean=false
-
-  ngOnInit():void{
-  console.log(this.isOpen);
+  ngOnChanges(){
+    
   }
 
+  
   ativarSideMenu(){
     if(this.isOpen==false){
       return this.isOpen=true
