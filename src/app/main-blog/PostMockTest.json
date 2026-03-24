@@ -1,0 +1,23 @@
+[
+  {
+    "id":1,
+    "titulo": "Introdução ao Machine Learning",
+    "autor": "Ana Silva",
+    "Resumo": "Este artigo aborda os conceitos fundamentais de machine learning, seus principais algoritmos e aplicações práticas.",
+    "data": "2025-03-01"
+  },
+  {
+    "id":2,
+    "titulo": "Desenvolvimento Ágil em Projetos de Software",
+    "autor": "Carlos Mendes",
+    "Resumo": "Uma análise das metodologias ágeis, com foco em Scrum e Kanban, e seus benefícios na gestão de projetos.",
+    "data": "2025-02-20"
+  },
+  {
+    "id":3,
+    "titulo": "Arquitetura de Microsserviços",
+    "autor": "Mariana Costa",
+    "Resumo": "Exploração dos princípios de microsserviços, desafios de implementação e ferramentas para orquestração.",
+    "data": "2025-03-15"
+  }
+]

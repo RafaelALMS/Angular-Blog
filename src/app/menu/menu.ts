@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Injectable } from '@angular/core';
+import { log } from 'console';
 
 @Component({
   selector: 'Top-Menu',
@@ -7,4 +8,23 @@ import { Component } from '@angular/core';
   styleUrl: './menu.css',
 })
 
-export class TopMenu {}
+@Injectable({
+  providedIn:'root',
+})
+
+export class TopMenu {
+  isOpen:boolean=false
+
+  ngOnInit():void{
+  console.log(this.isOpen);
+  }
+
+  ativarSideMenu(){
+    if(this.isOpen==false){
+      return this.isOpen=true
+    }
+    else{
+      return this.isOpen=false
+    }
+  }
+}

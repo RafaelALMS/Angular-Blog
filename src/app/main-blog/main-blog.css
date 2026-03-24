@@ -1,8 +1,17 @@
 
 .container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+}
+
+.testeConteiner{
+    display: flex;
+    flex-direction: row;
+}
+
+.blog-card{
+    flex:1;
 }
 
 img{
