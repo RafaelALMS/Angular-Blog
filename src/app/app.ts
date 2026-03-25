@@ -13,7 +13,4 @@ import { Recomendacoes } from "./recomendacoes/recomendacoes";
 export class App {
   protected readonly title = signal('Angular-Blog');
   IsOpen=inject(TopMenu)
-  ngOnInit():void{
-    console.log(this.IsOpen.isOpen);
-  }
 }

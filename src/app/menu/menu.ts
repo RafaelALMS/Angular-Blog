@@ -20,9 +20,11 @@ export class TopMenu {
   
   ativarSideMenu(){
     if(this.isOpen==false){
+      console.log(this.isOpen)
       return this.isOpen=true
     }
     else{
+      console.log(this.isOpen)
       return this.isOpen=false
     }
   }
