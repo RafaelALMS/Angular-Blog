@@ -1,5 +1,5 @@
-import { Component, Injectable } from '@angular/core';
-
+import { Component} from '@angular/core';
+import { SideMenuService } from './menu-service';
 @Component({
   selector: 'Top-Menu',
   imports: [],
@@ -7,25 +7,16 @@ import { Component, Injectable } from '@angular/core';
   styleUrl: './menu.css',
 })
 
-@Injectable({
-  providedIn:'root',
-})
+
+
 
 export class TopMenu {
-  isOpen:boolean=false
-  ngOnChanges(){
-    
+  constructor(private sideMenuService: SideMenuService) {}
+
+  ativarSideMenu() {
+    this.sideMenuService.toggle();
   }
 
-  
-  ativarSideMenu(){
-    if(this.isOpen==false){
-      console.log(this.isOpen)
-      return this.isOpen=true
-    }
-    else{
-      console.log(this.isOpen)
-      return this.isOpen=false
-    }
-  }
 }
+
+

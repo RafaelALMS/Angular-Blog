@@ -1,14 +1,23 @@
+/*Divide o dom em tres partes dropDonw main-blog e recomendacoes*/
 .container{
     display:grid;
     width: 100%;
     grid-template-columns:  0.33fr 1fr .33fr;
+
 }
 
 
 .MainBlog{
     justify-content: center;
-    background-color: lightcoral;
     margin-right: 25px;
+}
+
+.dropdonw-menu{
+    border: solid 1px rgb(0 0 0 / 0.3);
+}
+
+.recomendacoes{
+    border: solid 1px rgb(0 0 0 / 0.3);
 }
 
 

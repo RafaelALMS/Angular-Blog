@@ -1,8 +1,8 @@
 <Top-Menu></Top-Menu>
 <div class="container">
-    <div>
-        @if(!IsOpen.isOpen) {
-            <a>Abriu!</a>
+    <div class="SideMenuContainer" >
+        @if (sideMenuService.isOpen()) {
+        <side-menu ></side-menu>
         }
     </div>
     <main-blog></main-blog>
