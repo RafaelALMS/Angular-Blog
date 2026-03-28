@@ -5,8 +5,6 @@
   align-items: center;      
   gap: 1rem;                 
   padding: 1rem;
-  background-color: #f8f9fa;
-
 }
 
 .Esquerda, .Direita {
@@ -15,6 +13,27 @@
   align-items: center;
   gap: 1rem;
   
+}
+.pesquisa{
+  display: flex;
+  border-radius: 25px;
+  border-color: gray;
+  border: 1px solid;
+  padding: 5px;
+}
+.pesquisa > span, img{
+  background-color: transparent;
+  vertical-align: middle;
+  height: 20px;
+}
+input{
+  border-color: transparent;
+}
+
+img{
+  height: 57px;
+  width: 57px;
+  object-fit: contain;
 }
 
 @media (max-width: 768px) {
@@ -28,16 +47,7 @@
     
   }
 
-    .baixar-App,
-  .write,
-  .notifications {
+  .baixar-App, .write,.notifications {
     display: none;
   }
-}
-
-
-img{
-  height: 57px;
-  width: 57px;
-  object-fit: contain;
 }

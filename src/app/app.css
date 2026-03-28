@@ -3,7 +3,6 @@
     display:grid;
     width: 100%;
     grid-template-columns:  0.33fr 1fr .33fr;
-
 }
 
 
@@ -21,3 +20,10 @@
 }
 
 
+@media (max-width: 768px) {
+    .container{
+        display:grid;
+        width: 100%;
+        grid-template-columns:  1fr;
+    }
+}

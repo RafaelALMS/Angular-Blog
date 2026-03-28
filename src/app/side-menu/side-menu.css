@@ -1,0 +1,53 @@
+@keyframes slidein {
+  from {
+    width: 0%;
+  }
+  75% { /* Intermediate step */
+    margin-left: 25%;
+    width: 50%;
+  }
+  to {
+    
+    width: 100%;
+  }
+}
+
+@keyframes out {
+  from {
+    width: 100%;
+  }
+  75% { /* Intermediate step */
+    margin-left: 25%;
+    width: 50%;
+  }
+  to {
+    
+    width: 0%;
+  }
+}
+
+.Main-container{
+    display: grid;
+    justify-content: space-around;
+    text-align: center;
+    gap: 50px;
+    animation: slidein 0.5s forwards;
+}
+
+
+
+
+.Main-container >.ToGithub, .ToLinkedIn,FeitoPorquem{
+    display: grid;
+    justify-content: space-around;
+    
+
+}
+
+
+
+@media (max-width: 768px) {
+    .Main-container{
+        display: none;
+    }
+}

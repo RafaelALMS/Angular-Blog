@@ -4,21 +4,25 @@
     "titulo": "Introdução ao Machine Learning",
     "autor": "Ana Silva",
     "Resumo": "Este artigo aborda os conceitos fundamentais de machine learning, seus principais algoritmos e aplicações práticas.",
-    "data": "2025-03-01"
+    "data": "2025-03-01",
+    "imgLink": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.ufsm.br%2Fpet%2Fsistemas-de-informacao%2F2021%2F05%2F11%2Fintroducao-a-machine-learning&ved=0CBYQjRxqFwoTCJih9e6-wZMDFQAAAAAdAAAAABAI&opi=89978449"
+
   },
   {
     "id":2,
     "titulo": "Desenvolvimento Ágil em Projetos de Software",
     "autor": "Carlos Mendes",
     "Resumo": "Uma análise das metodologias ágeis, com foco em Scrum e Kanban, e seus benefícios na gestão de projetos.",
-    "data": "2025-02-20"
+    "data": "2025-02-20",
+    "imgLink":"https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.nimblework.com%2Fpt-br%2Fagile%2Fdesenvolvimento-agil-de-software%2F&ved=0CBYQjRxqFwoTCNi-soXAwZMDFQAAAAAdAAAAABAI&opi=89978449"
   },
   {
     "id":3,
     "titulo": "Arquitetura de Microsserviços",
     "autor": "Mariana Costa",
     "Resumo": "Exploração dos princípios de microsserviços, desafios de implementação e ferramentas para orquestração.",
-    "data": "2025-03-15"
+    "data": "2025-03-15",
+    "imgLink":"Arquitetura de MicrosserviçosArquitetura de MicrosserviçosArquitetura de Microsserviços"
   }
 
   

@@ -1,17 +1,22 @@
-<div class="container">
-    @for (dados of dados; track dados.id) {
-        <div class="testeConteiner">
-            <div class="blog-card">
-                <h3><a href="http://">{{dados.titulo}}</a></h3>
-                <p>{{dados.autor}}</p>
-                <p> {{dados.Resumo}}</p>
-                <p>{{dados.data}}</p>
-                <button>👍</button>
+<div class="conteiner">
+    @for (dados of dados; track dados.id){
+       <div class="conteinerCard">
+         <div class="blog-card">
+            <div class="LettersDiv">
+                    <p>{{dados.autor}}</p>
+                <div class="TitleDiv">
+                    <h1><a href="http://">{{dados.titulo}}</a></h1>
+                </div>
+                <div class="ImgDiv">
+                    <h3> {{dados.Resumo}}</h3>
+                    <p>{{dados.data}}</p>
+                </div>
             </div>
-            <div class="img">
-                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAsAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAHxABAQEAAAcBAQAAAAAAAAAAAAERITFhcYGR8FGh/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AOHAAAAAAAAAoIqKCAAqAAqACoAKgAAAAAqKAKACgImNAIKgIKgCKAgAAAAAAKBiwUEUUCQxfCgzg1hgMjWHgGExvwlBlGqgIioAAAqAKqKBIpFkBZFJFAwkXFwEwxcMBMTGrEwGWbG7EBgXNTAZRpKCAAKgDUCKCyLEjQLiyJGpn6Bi4cP1Zn6AZF8nkGbCre6Xv97Bmpwa4frNBKy0zQRFQGQAAUFixFBY1PDMagL6aiLKDU+4r9zSVYC+vZ9zOJoJ9zSral0Gai1AZZrdYoIlVKCIKCAoKqRQWc2vLMWQGp3a+5sxeANTv/V3rfbPBQa3r/Tet9ofcgLeu+Ut6/1bd/L2ZA8s3uupQS1mtMgiVUoIgACgCooLGozAG5V1iXg1oNarOroLpqHsFtNTU0DUNTQSotTQRABAAUQBQAWVWVgK1KyA2RnTaDX3I+5M7TaDQztNA1AoGoIACAAAqACoAKACgAoAAAAAIUARAAABQAf/2Q==">
-            </div>
+            
         </div>
+        <div class="ImageConteiner">
+            <img [src]="dados.imgLink">
+        </div>
+       </div>
     }
-</div>
-
+    </div>
